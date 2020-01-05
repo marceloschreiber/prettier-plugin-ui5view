@@ -1,0 +1,20 @@
+{
+  "name": "prettier-plugin-ui5view",
+  "version": "1.0.0",
+  "description": "Prettier plugin for UI5 views in XML format",
+  "main": "src/index.js",
+  "repository": "https://github.com/marceloschreiber/prettier-plugin-ui5view",
+  "author": "Marcelo Fernandes",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn jest"
+  },
+  "dependencies": {
+    "@xml-tools/ast": "^1.0.0",
+    "@xml-tools/parser": "^0.4.0",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
